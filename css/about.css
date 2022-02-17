@@ -1,0 +1,115 @@
+/*------------topbody---------------------*/
+.topbody{
+    clear: both;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font: 18px helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    
+  }
+  .head-title {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .head-title :before {
+    content: ' ';
+    display: block;
+    height: 40%;
+  }
+.head-title h1{
+  margin-top: 10%;
+  margin-bottom: 6px;
+ 
+}
+.head-title p{
+    margin-left: 30%;
+    max-width: 40%;;
+}
+#particles-js{
+  background-color: black;
+  height: 100%;
+  
+}
+/*************Text animation*********************/
+.textanimation{
+  font-size: 24px;
+  transition: font-size 2s;
+}
+.textanimation:hover{
+  font-size: 40px;
+}
+/*------------midbody----------------------*/
+
+.moto h1{
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 42px;
+    padding: 5%;
+}
+.col-md-3 {
+    width: 25%;
+    font-size: 18px;
+    margin-left: 100px;
+}
+.col-md-6 {
+    width: 50%;
+    margin-left: 35px;
+  }
+  .getintouch .col-md-3 {
+    width: 25%;
+    font-size: 18px;
+    margin-top: 120px;
+  }
+.col-md-2 {
+    width: 16.66666667%;
+    margin-top: 55px;
+    font-size: 18px; 
+}
+.moreclass{
+  margin-top: 25%;
+}
+/*----------------contact animation---------------*/
+.textanimation2{ 
+  font-size: 18px;
+  transition: 2s;
+  color: #000;
+  text-decoration-line: none;
+}
+.textanimation2:hover{
+  font-size: 24px;
+  color: #000;
+  text-decoration-line: none;
+}
+.textanimation3{ 
+  font-size: 18px;
+  transition: 2s;
+  color: #000;
+  text-decoration-line: none;
+  
+}
+.textanimation3:hover{
+  font-size: 24px;
+  color: #000;
+  text-decoration-line: none;
+}
+button{
+  background-color: white; 
+  border: 2px solid #e7e7e7;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #e7e7e7;
+}
